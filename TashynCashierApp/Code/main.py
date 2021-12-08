@@ -185,7 +185,7 @@ def delete_item_func():
 
 	else:
 
-		if int(deletebox.get()) > len(records) + 1 or int(deletebox.get()) < 0:
+		if int(deletebox.get()) > len(records) or int(deletebox.get()) < 0:
 		#check if the number inputted to edit o delete is valid
 			invalid_int()
 
